@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8"/>
+  <title>Gallery</title>
+    <!-- Linking css file -->
+	<link rel="stylesheet" href="CSS/External_CSS.css"/>
+  <!-- Linking font awesome css file using cdn (for footer icons)-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- Linking Gallery JavaScript file -->
+  <script src="Js/Gallery.js"></script>
+	</head>
+        <body>
+          <!-- Creating header with navigation panel -->
+          <header id="top">
+            <div class="main-logo">
+              <img src="images/MainLogo.png" alt="Logo">
+            </div>
+          
+            <ul class="main-nav-area">
+              <li><a href="Main_Page.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+                  
+              <li class="main-dropdown">
+                <a href="javascript:void(0)" class="main-dropbtn">Explore</a>
+                  <div class="main-droplist">
+                    <a href="article.html">Articles</a>
+                    <a href="quiz.html">Quiz</a>
+                    <a href="Gallery.html">Gallery</a>
+                  </div>
+              </li>
+          
+              <li><a href="Sitemap.html">Site Map</a></li>
+          
+              <li class="main-dropdown">
+                <a href="javascript:void(0)" class="main-dropbtn">About Us</a>
+                  <div class="main-droplist">
+                    <a href="Contact_Us.html">Contact Us</a>
+                    <a href="Team.html">Our Team</a>
+                  </div>
+              </li>
+            </ul>	
+          </header>
+           <!-- Change Background Colour -->
+                  <div id="essContainer">
+                    <form>
+                        <div class="topColourChanger">
+                    <label class="label" id="gallery_lb1">Select Background Colour </label>
+                    <select id="backGroundColourOptions" onclick="ChangeBgColour()">
+                        <option value="#2e2e32"> Select Colour 	</option>
+                        <option value="#39004d"> Dark Purple	</option>
+                        <option value="#b30000"> Red 		</option>
+                        <option value="#0d0d26"> Dark Blue 	</option>
+                        <option value="#004d4d"> Dark Green 		</option>
+                    </select>
+                </div>
+                <!-- Change Text Colour -->
+                <div class="topColourChanger"> 
+                  <label class="label" id="gallery_lb2">Select Font Colour </label>
+                    <select id="fontColourOptions" onclick="ChangeFontColour()">
+                        <option value="#ffffff"> 		Select Colour	</option>
+                        <option value="#ffcccc">		Light Pink		</option>
+                        <option value="#ffff00">	Highlight Yellow	</option>
+                        <option value="#00ffff">	Sea Green		</option>
+                        <option value="#4dff4d">	Coral Green		</option>
+                    </select>  
+                </div>
+              
+                </form>
+<!-- MAIN (Center website) -->
+<div class="gallery_main">
+  <!-- Portfolio Gallery Grid -->
+<div class="gallery_row">
+    <div class="gallery_column">
+      <div class="gallery_content">
+        <p>Cristiano Ronaldo</p>
+        <img src="images/RonaldoKick.jpg" alt="Cristiano Ronaldo" class="gallery_thumbnailImages"  onmouseover="con1(this)" >
+    </div>
+</div>
+<div class="gallery_column">
+  <div class="gallery_content">
+  <p>Novak Djokovic</p>
+  <img src="images/Novak.jpg" alt="Novak Djokovic" class="gallery_thumbnailImages"  onmouseover="con2(this)" >
+</div>
+</div>
+<div class="gallery_column">
+  <div class="gallery_content">
+  <p>ICC Worldcup</p>
+  <img src="images/ICCWorldcup.jpg" alt="ICC Worldcup" class="gallery_thumbnailImages"  onmouseover="con3(this)" >
+</div>
+</div>
+<div class="gallery_column">
+  <div class="gallery_content">
+  <p>Michael Phelps</p>
+  <img src="images/MichaelPhelps.jpg" alt="Michael Phelps" class="gallery_thumbnailImages"  onmouseover="con4(this)">
+</div>
+</div>
+<div class="gallery_column">
+  <div class="gallery_content">
+  <p>NBA Lakers</p>
+  <img src="images/NBALakers.jpg" alt="NBA Lakers" class="gallery_thumbnailImages"  onmouseover="con5(this)" >
+</div>
+</div>
+<div class="gallery_column">
+    <div class="gallery_content">
+    <p>Real Madrid</p>
+  <img src="images/RealMadrid.jpg" alt="Real Madrid" class="gallery_thumbnailImages" onmouseover="con6(this)" >
+</div>
+</div>
+
+<div id="descriptionAndImageArea"> </div>
+  <!-- END GRID -->
+  <div id="gallery_container">
+    <img id="expandedImg" alt="ExpandingImage"></div>
+  </div>
+</div>
+<footer class="main-footer">
+	<div class="main-footerleft">
+		<h3>Elite<span>MAAS</span></h3>
+		<div class="main-footerlinks">
+			<a href="article.html" class="link1">Articles</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="Gallery.html">Gallery</a>
+			<a href="Contact_Us.html">Contact Us</a>
+			<a href="Team.html">Our Team</a>
+		</div> 
+			<p class="main-footercompany">
+				Copyrights reserved &#169; 2021
+			</p>
+	</div>
+	<div class="main-footercenter">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>No.34, Cross Street,</span>Colombo 05, Sri Lanka</p>
+		</div>
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>011-2906789</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p>contactus@elitemaas.com</p>
+		</div>
+	</div>	
+	<div class="main-footerright">
+		<p class="main-footerabout">
+			<span>About The Company</span>
+			Elite MAAS is a sports equipment store which sells high quality products.
+		</p>
+	
+		<div class="author">
+			<a href="PageEditor2.html">PAGE EDITOR: Asini Thalawaththa</a>
+		</div>
+	</div>	
+
+	<div class="main-topbtn">
+		<a href="#top"><i class="fa fa-chevron-up"></i></a>
+	</div>	
+</footer>
+</body>
+</html>

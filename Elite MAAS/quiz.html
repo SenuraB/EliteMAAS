@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Quiz</title>
+    <link rel="stylesheet" href="CSS/External_CSS.css">
+
+    <!-- Linking font awesome css file using cdn (for footer icons)-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+    
+<</head>
+
+<body class="QuizBody">
+    <!-- Navigation bar -->
+    <header id="top">
+		<div class="main-logo">
+			<img src="images/MainLogo.png" alt="Logo">
+		</div>
+	
+		<ul class="main-nav-area">
+			<li><a href="Main_Page.html">Home</a></li>
+			<li><a href="quiz.html">Products</a></li>
+					
+			<li class="main-dropdown">
+				<a href="javascript:void(0)" class="main-dropbtn">Explore</a>
+					<div class="main-droplist">
+						<a href="article.html">Articles</a>
+						<a href="quiz.html">Quiz</a>
+						<a href="Gallery.html">Gallery</a>
+					</div>
+			</li>
+	
+			<li><a href="Sitemap.html">Site Map</a></li>
+	
+			<li class="main-dropdown">
+				<a href="javascript:void(0)" class="main-dropbtn">About Us</a>
+					<div class="main-droplist">
+						<a href="Contact_Us.html">Contact Us</a>
+						<a href="Team.html">Our Team</a>
+					</div>
+			</li>
+		</ul>	
+	
+	</header>
+
+    
+<br><br><br><br><br><br><br><br>
+
+    <div>
+         <h2>QUIZ on SPORTS</h2>
+            <ul>
+                <li>This Quiz contains 10 questions on sports.</li>
+                <li>This Quiz has a total of <b class="quiztext">20 marks</b>. </li>
+                <li>A correct answer will get you <b class="quiztext">2 points</b> and a wrong answer will  you <b class="quiztext"> -1 point</b>.</li>
+                <li>Every question has a time limit of <b class="quiztext"> 10 seconds</b> and it will move on to the next question after the time limit expires.</li>
+            </ul>
+        
+         <br>
+
+            <!-----Starting the Quiz function--------->
+
+         <div id="QuizContainer">
+                <button id="quizstart">Start</button>
+                    <div id="quiz" style="display: none">
+                        <div id="timer">
+                             <div id="counter"></div>
+                             <div id="btimeGauge"></div>
+                             <div id="timeGauge"></div>
+                        
+                    
+         </div>
+            <div id="question"></div>
+                             
+                 <div id="choices">
+                        <div class="choice" id="A" onclick="checkAnswer('A')"></div>
+                        <div class="choice" id="B" onclick="checkAnswer('B')"></div>
+                        <div class="choice" id="C" onclick="checkAnswer('C')"></div>
+                        <div class="choice" id="D" onclick="checkAnswer('D')"></div>
+                 </div>               
+                
+                    <div id="progress"></div>
+             </div>
+            <br><br><br>
+                <a href="quiz.html" id="reset-button" style="display: block;">
+                    <button id="quizreset">Reset</button>
+                </a>
+             
+
+        <div id="scoreContainer" style="display: none"><button>Review Questions</button></div>
+
+           
+
+        <!----Calling the Quiz function---->
+           
+        <script src="JScripts/quiz.js"></script>
+            
+    </div>
+
+    <br><br><br><br>
+            <!-- Footer -->
+
+
+<footer class="main-footer">
+	<div class="main-footerleft">
+		<h3>Elite<span>MAAS</span></h3>
+		<div class="main-footerlinks">
+			<a href="article.html" class="link1">Articles</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="Gallery.html">Gallery</a>
+			<a href="Contact_Us.html">Contact Us</a>
+			<a href="Team.html">Our Team</a>
+		</div> 
+			<p class="main-footercompany">
+				Copyrights reserved &#169; 2021
+			</p>
+	</div>
+	<div class="main-footercenter">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>No.34, Cross Street,</span>Colombo 05, Sri Lanka</p>
+		</div>
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>011-2906789</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p>contactus@elitemaas.com</p>
+		</div>
+	</div>	
+	<div class="main-footerright">
+		<p class="main-footerabout">
+			<span>About The Company</span>
+			Elite MAAS is a sports equipment store which sells high quality products.
+		</p>
+	
+		<div class="author">
+			<a href="PageEditor3.html">PAGE EDITOR: Lochana Ratnayake</a>
+		</div>
+	</div>	
+
+	<div class="main-topbtn">
+		<a href="#top"><i class="fa fa-chevron-up"></i></a>
+	</div>	
+</footer>
+
+</body>
+
+</html>

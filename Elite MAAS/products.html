@@ -1,0 +1,460 @@
+<!doctype html >
+<html lang="en">
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="UTF-8">
+	<title>Products Page</title>
+
+		<!-- Linking css file -->
+	<link rel="stylesheet" href="CSS/External_CSS.css" />
+		<!-- Linking font awesome css file using cdn (for footer icons)-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body class="boxmodel">
+<header id="top">
+	<div class="main-logo">
+		<img src="images/MainLogo.png" alt="Logo">
+	</div>
+
+	<ul class="main-nav-area">
+		<li><a href="Main_Page.html">Home</a></li>
+		<li><a href="products.html">Products</a></li>
+				
+		<li class="main-dropdown">
+			<a href="javascript:void(0)" class="main-dropbtn">Explore</a>
+				<div class="main-droplist">
+					<a href="article.html">Articles</a>
+					<a href="quiz.html">Quiz</a>
+					<a href="Gallery.html">Gallery</a>
+				</div>
+		</li>
+
+		<li><a href="Sitemap.html">Site Map</a></li>
+
+		<li class="main-dropdown">
+			<a href="javascript:void(0)" class="main-dropbtn">About Us</a>
+				<div class="main-droplist">
+					<a href="Contact_Us.html">Contact Us</a>
+					<a href="Team.html">Our Team</a>
+				</div>
+		</li>
+	</ul>	
+
+</header>
+
+    
+    <center>
+        <div>
+            <img class="pro_slidings" src="images/big2.jpg" alt="bigimg" style="width: 100%;" />
+            <img class="pro_slidings" src="images/big1.jpg" alt="bigimg" style="width: 100%;" />
+            <img class="pro_slidings" src="images/big3.jpg" alt="bigimg" style="width: 100%;" />
+        </div>
+    </center>
+    <!-------------------------------- This is the theme Button------------------------------------------->
+
+    <!------------------------------ This is the navigation bar---------------------------------->
+
+    <div class="pro_navbar">
+        <a onclick="select('men');">Mens</a>
+        <a onclick="select('women');">Womens</a>
+        <a onclick="select('sport');">Accessories</a>
+    </div>
+
+    <!--------------------------------------------- Men's Items------------------------>
+
+    <div class="list men pageitem pro_names">
+        <img src="images/men5.jpg" alt="Marron T-Shirt" style="width: 100%" />
+        <h1 id="head1">Maroon Skinny</h1>
+        <p class="price" id="pro1">$29.99</p>
+        <div class="amount" id="pro2">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty1"></div>
+    </div>
+
+
+    <div class="list men pageitem pro_names">
+        <img src="images/men4.jpg" alt="Training T-Shirt" style="width: 100%" />
+        <h1 id="head2">Body Armor</h1>
+        <p class="price" id="pro3">$49.99</p>
+        <div class="amount" id="pro4">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty2"></div>
+    </div>
+
+
+    <div class="list men pageitem pro_names">
+        <img src="images/men8.jpg" alt="SwimmingKit" style="width: 100%" />
+        <h1 id="head3">Swimming Kit</h1>
+        <p class="price" id="pro5">$89.99</p>
+        <div class="amount" id="pro6">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty3"></div>
+    </div>
+
+
+    <div class="list men pageitem pro_names">
+        <img src="images/menswear10.jpg" alt="football kit" style="width: 100%" />
+        <h1 id="head4">Football Kit</h1>
+        <p class="price" id="pro7">$69.99</p>
+        <div class="amount" id="pro8">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty4"></div>
+    </div>
+
+
+    <!--------------------------------- Women's Items-------------------------->
+    <div class="list women pageitem pro_names">
+        <img src="images/womenswear4.jpg" alt="Athletic kit" style="width: 100%" />
+        <h1 id="head1">Athletic Kit</h1>
+        <p class="price" id="pro9">$59.99</p>
+        <div class="amount" id="pro10">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty5"></div>
+    </div>
+
+
+    <div class="list women pageitem pro_names">
+        <img src="images/womenswear10.jpg" alt="Athletic dress" style="width: 100%" />
+        <h1 id="head2"> Running Wear</h1>
+        <p class="price" id="pro11">$79.99</p>
+        <div class="amount" id="pro12">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty6"></div>
+    </div>
+
+
+    <div class="list women pageitem pro_names">
+        <img src="images/womenswear12.jpg" alt="Outdoor sports" style="width: 100%" />
+        <h1 id="head3">Outdoor Jogger</h1>
+        <p class="price" id="pro13">$89.99</p>
+        <div class="amount" id="pro14">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty7"></div>
+    </div>
+
+
+    <div class="list women pageitem pro_names">
+        <img src="images/womenswear13.jpg" alt="football kit" style="width: 100%" />
+        <h1 id="head4">Football Suit</h1>
+        <p class="price" id="pro15">$79.99</p>
+        <div class="amount" id="pro16">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty8"></div>
+    </div>
+
+
+    <!--------------------------------------------- Sport Items -------------------->
+    <div class="list sport pageitem pro_names">
+        <img src="images/sport4.jpg" alt="sport item" style="width: 100%" />
+        <h1 id="head1">Golf Ball</h1>
+        <p class="price" id="pro17">$59.99</p>
+        <div class="amount" id="pro18">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty9"></div>
+    </div>
+
+
+    <div class="list sport pageitem pro_names">
+        <img src="images/sport5.jpg" alt="sports item" style="width: 100%" />
+        <h1 id="head2">Tennis Ball</h1>
+        <p class="price" id="pro19">$19.99</p>
+        <div class="amount" id="pro20">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty10"></div>
+    </div>
+
+
+    <div class="list sport pageitem pro_names">
+        <img src="images/sport1.jpg" alt="sport item" style="width: 100%" />
+        <h1 id="head3">Adiddas Football</h1>
+        <p class="price" id="pro21">$299.99</p>
+        <div class="amount" id="pro22">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty11"></div>
+    </div>
+
+
+    <div class="list sport pageitem pro_names">
+        <img src="images/sport2.jpg" alt="sport item" style="width: 100%" />
+        <h1 id="head4">Tennis Racket</h1>
+        <p class="price" id="pro23">$129.99</p>
+        <div class="amount" id="pro24">Quantity <input type="number" placeholder="0" min="0" max="5" id="Qty12"></div>
+    </div>
+
+    <!----------------------------------------------Buy button----------------------->
+    <div class="buybutton" onclick="select('details');">
+        Add to Cart
+    </div>
+
+    <!--------------------------------- From products to collect details -------------->
+    <center>
+    <div class="list details pageitem " id="formdata">
+        <form>
+            <h1 id="head">Personal Details</h1>
+            <hr>
+            <input class="input_text" type="text" id="firstname" placeholder="First name">
+            <input class="input_text" type="text" id="lastname" placeholder="Last name">
+            <input class="input_email" type="email" id="email" placeholder="E-mail">
+            <input class="input_text" type="text" id="TPno" placeholder="0123456789">
+            <input class="input_text" type="text" id="del" placeholder="Delivery address">
+
+            <h1 id="head">Payment Details</h1>
+            <hr>
+            <input class="input_text" type="text" id="cardname" placeholder="Name on card">
+            <input class="input_text" type="text" id="cardnumber" placeholder="1111-2222-3333-4444">
+            <input class="input_date" type="datetime" id="expyear" placeholder="Expiry Date mm/dd">
+            <input class="input_text" type="text" id="bill" placeholder="Fill if delivery is not Billing">
+
+            <input class="input_submit"type="submit" Value="Place Order" onclick="displayMessage()">
+        </form>
+    </div>
+    </center>
+</body>
+
+<script>
+    /* -----------------------------------------This is page item script ---------------------------- */
+    function select(x) {
+        list = document.getElementsByClassName("pageitem");
+        for (i = 0; i < list.length; i++) {
+            list[i].style.display = "none";
+        }
+
+        items = document.getElementsByClassName(x);
+        for (j = 0; j < items.length; j++) {
+            items[j].style.display = "inline-block";
+        }
+    }
+/*---------------------------------- This is sliding -------------------------------*/
+    var myIndex = 0;
+    slidings();
+
+    function slidings() {
+        var i;
+        var x = document.getElementsByClassName(" pro_slidings ");
+        for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none ";
+        }
+        myIndex++;
+        if (myIndex > x.length) {
+            myIndex = 1;
+        }
+        x[myIndex - 1].style.display = "block";
+        setTimeout(slidings, 3000); // Change image every 2 seconds
+    }
+/*-----------------This is function for message box----------------------------------- */
+    function displayMessage() {
+
+        var total = 0;
+        var purchase = "";
+        var name = document.getElementById("firstname").value;
+        var email = document.getElementById("email").value;
+        var TeleNo = document.getElementById("TPno").value;
+
+        var qty1 = document.getElementById("Qty1").value;
+        var price1 = 29.99;
+
+        var qty2 = document.getElementById("Qty2").value;
+        var price2 = 49.99;
+
+        var qty3 = document.getElementById("Qty3").value;
+        var price3 = 89.99;
+
+        var qty4 = document.getElementById("Qty4").value;
+        var price4 = 69.99;
+
+        var qty5 = document.getElementById("Qty5").value;
+        var price5 = 59.99;
+
+        var qty6 = document.getElementById("Qty6").value;
+        var price6 = 79.99;
+
+        var qty7 = document.getElementById("Qty7").value;
+        var price7 = 89.99;
+
+        var qty8 = document.getElementById("Qty8").value;
+        var price8 = 79.99;
+
+        var qty9 = document.getElementById("Qty9").value;
+        var price9 = 59.99;
+
+        var qty10 = document.getElementById("Qty10").value;
+        var price10 = 19.99;
+
+        var qty11 = document.getElementById("Qty11").value;
+        var price11 = 299.99;
+
+        var qty12 = document.getElementById("Qty12").value;
+        var price12 = 129.99;
+
+        var check = 0;
+        if (name != "") {
+            if (email != "") {
+                if (TeleNo != "") {
+                    if (qty1 > 0) {
+                        total = total + (price1 * qty1);
+                        purchase = purchase + "Maroon Skinny   " + qty1 + " *  $" + price1 + " =  $" + (price1 * qty1) + "\n";
+                    }
+                    if (qty2 > 0) {
+                        total = total + (price2 * qty2);
+                        purchase = purchase + " Body Armor      " + qty2 + " *  $" + price2 + " =  $" + (price2 * qty2) + "\n";
+                    }
+                    if (qty3 > 0) {
+                        total = total + (price3 * qty3);
+                        purchase = purchase + "Swimming Kit       " + qty3 + " *  $" + price3 + " =  $" + (price3 * qty3) + "\n";
+                    }
+                    if (qty4 > 0) {
+                        total = total + (price4 * qty4);
+                        purchase = purchase + "Football Kit       " + qty4 + " *  $" + price4 + " =  $" + (price4 * qty4) + "\n";
+                    }
+                    if (qty5 > 0) {
+                        total = total + (price5 * qty5);
+                        purchase = purchase + "Women's Athletic Kit       " + qty5 + " *  $" + price5 + " =  $" + (price5 * qty5) + "\n";
+                    }
+                    if (qty6 > 0) {
+                        total = total + (price6 * qty6);
+                        purchase = purchase + "Women's Athletic Fit       " + qty6 + " *  $" + price6 + " =  $" + (price6 * qty6) + "\n";
+                    }
+                    if (qty7 > 0) {
+                        total = total + (price7 * qty7);
+                        purchase = purchase + "Women's Outdoor Suit       " + qty7 + " *  $" + price7 + " =  $" + (price7 * qty7) + "\n";
+                    }
+                    if (qty8 > 0) {
+                        total = total + (price8 * qty8);
+                        purchase = purchase + "Wave Football Suit       " + qty8 + " *  $" + price8 + " =  $" + (price8 * qty8) + "\n";
+                    }
+                    if (qty9 > 0) {
+                        total = total + (price9 * qty9);
+                        purchase = purchase + "Golf Ball       " + qty9 + " *  $" + price9 + " =  $" + (price9 * qty9) + "\n";
+                    }
+                    if (qty10 > 0) {
+                        total = total + (price10 * qty10);
+                        purchase = purchase + "Tennis Ball       " + qty10 + " *  $" + price10 + " =  $" + (price10 * qty10) + "\n";
+                    }
+                    if (qty11 > 0) {
+                        total = total + (price11 * qty11);
+                        purchase = purchase + "Adiddas Football       " + qty11 + " *  $" + price11 + " =  $" + (price11 * qty11) + "\n";
+                    }
+                    if (qty12 > 0) {
+                        total = total + (price12 * qty12);
+                        purchase = purchase + "Tennis Racket       " + qty12 + " *  $" + price12 + " =  $" + (price12 * qty12) + "\n";
+                    }
+        /* print receipt including name, purchase, total, email */
+                    printReceipt(name, purchase, total, email);
+                    /* check phone number, email, name */
+                } else {
+                    check++;
+                    alert("T- Phone number expected!");
+                }
+            } else {
+                check++;
+                alert("E- mail expected!");
+            }
+        } else {
+
+
+            check++;
+            alert("Name expected!")
+        }
+
+        if (check == 0) {
+            emptyTextFields();
+        }
+    }
+    /* print receipt including name, purchase, total, email */
+
+    function printReceipt(name, purchase, total, email) {
+        alert(
+            "Hi " + name + ", \n" + "You have bought:\n\n" +
+            purchase + "\n" +
+            "Total :  $" + total + "\n\n" +
+            "Confirmation Invoice will be sent to : " + email
+        );
+    }
+
+    function emptyTextFields() {
+        document.getElementById("firstname").value = "";
+        document.getElementById("lastname").value = "";
+        document.getElementById("TPno").value = "";
+        document.getElementById("email").value = "";
+        document.getElementById("del").value = "";
+        document.getElementById("Qty1").value = "0";
+        document.getElementById("Qty2").value = "0";
+        document.getElementById("Qty3").value = "0";
+        document.getElementById("Qty4").value = "0";
+        document.getElementById("Qty5").value = "0";
+        document.getElementById("Qty6").value = "0";
+        document.getElementById("Qty7").value = "0";
+        document.getElementById("Qty8").value = "0";
+        document.getElementById("Qty9").value = "0";
+        document.getElementById("Qty10").value = "0";
+        document.getElementById("Qty11").value = "0";
+        document.getElementById("Qty12").value = "0";
+        document.getElementById("cardname").value = "";
+        document.getElementById("cardnumber").value = "";
+        document.getElementById("expyear").value = "";
+        document.getElementById("bill").value = "";
+    }
+
+    function myFunction(selectTag) {
+        var listValue = selectTag.options[selectTag.selectedIndex].text;
+        document.getElementById("head").style.fontSize = listValue;
+        document.getElementById("head1").style.fontSize = listValue;
+        document.getElementById("head3").style.fontSize = listValue;
+        document.getElementById("head4").style.fontSize = listValue;
+        document.getElementById("pro1").style.fontSize = listValue;
+        document.getElementById("pro2").style.fontSize = listValue;
+        document.getElementById("pro3").style.fontSize = listValue;
+        document.getElementById("pro4").style.fontSize = listValue;
+        document.getElementById("pro5").style.fontSize = listValue;
+        document.getElementById("pro6").style.fontSize = listValue;
+        document.getElementById("pro7").style.fontSize = listValue;
+        document.getElementById("pro8").style.fontSize = listValue;
+        document.getElementById("pro9").style.fontSize = listValue;
+        document.getElementById("pro10").style.fontSize = listValue;
+        document.getElementById("pro11").style.fontSize = listValue;
+        document.getElementById("pro12").style.fontSize = listValue;
+        document.getElementById("pro13").style.fontSize = listValue;
+        document.getElementById("pro14").style.fontSize = listValue;
+        document.getElementById("pro15").style.fontSize = listValue;
+        document.getElementById("pro16").style.fontSize = listValue;
+        document.getElementById("pro17").style.fontSize = listValue;
+        document.getElementById("pro18").style.fontSize = listValue;
+        document.getElementById("pro19").style.fontSize = listValue;
+        document.getElementById("pro20").style.fontSize = listValue;
+        document.getElementById("pro21").style.fontSize = listValue;
+        document.getElementById("pro22").style.fontSize = listValue;
+        document.getElementById("pro23").style.fontSize = listValue;
+        document.getElementById("pro24").style.fontSize = listValue;
+    }
+</script>
+
+
+
+
+<footer class="main-footer">
+	<div class="main-footerleft">
+		<h3>Elite<span>MAAS</span></h3>
+		<div class="main-footerlinks">
+			<a href="Archive" class="link1">Articles</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="Gallery.html">Gallery</a>
+			<a href="Contact_Us.html">Contact Us</a>
+			<a href="Team.html">Our Team</a>
+		</div> 
+			<p class="main-footercompany">
+				Copyrights reserved &#169; 2021
+			</p>
+	</div>
+	<div class="main-footercenter">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>No.34, Cross Street,</span>Colombo 05, Sri Lanka</p>
+		</div>
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>011-2906789</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p>contactus@elitemaas.com</p>
+		</div>
+	</div>	
+	<div class="main-footerright">
+		<p class="main-footerabout">
+			<span>About The Company</span>
+			Elite MAAS is a sports equipment store which sells high quality products.
+		</p>
+	
+		<div class="author">
+			<a href="PageEditor1.html">PAGE EDITOR: Senura Battage</a>
+		</div>
+	</div>	
+
+	<div class="main-topbtn">
+		<a href="#top"><i class="fa fa-chevron-up"></i></a>
+	</div>	
+</footer>
+</body>
+
+</html>

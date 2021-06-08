@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   
+    <link rel="stylesheet" href="#">
+    <title>Page Editor</title>
+<style>
+
+*{
+    padding:0;
+    margin:0;
+}
+/* Scroll bar - Designed to be used throughout the website */
+::-webkit-scrollbar{
+    width:13px;
+}
+
+::-webkit-scrollbar-track{
+   background:black;
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(255, 99, 71, 0.5);
+    border-radius: 20px;
+    border:3px solid;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#ff6347;
+}
+
+        img.container_edit {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%;
+            /* 16:9 Aspect Ratio */
+        }
+        
+        .topright_edit {
+            position: absolute;
+            top: 18px;
+            right: 30px;
+            color: rgb(255, 255, 255);
+            font-size: 32px;
+        }
+
+        /* Table ids */
+        
+        #ftable_edit {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #ftable_edit td,
+        #ftable_edit th {
+            border: 5px solid #ffff;
+            padding: 60px;
+            text-align: left;
+        }
+        
+        #ftable_edit th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            color: white;
+        }
+
+        
+    </style>
+
+</head>
+
+ <body class="boxmodel ">
+     <div class="container_edit">
+        <img src="images/first1_copy.jpg" alt="Senura" style="width:100%; height:50% ;">
+     </div>
+
+     <div class="topright_edit">
+        <h1>Hi...It's Me</h1>
+    
+       
+        <table id="ftable_edit">
+            <tr>
+                <th>About Me</th>
+                <th>Details</th>
+                <th>Tasks </th>
+            </tr>
+            <tr>
+                <td>Senura Battage <br>Student 01
+                    <br><br><img src="images/senura.jpg" alt="Senura" width="200" height="200">
+                </td>
+                <td> Level 5 - BIS <br>2019927<br> W1791007<br><br><br>
+                <br><br><br>
+                </td>
+                <td>
+                    Presentation Page 
+                <br>Buy Products Page
+                <br>Article Page
+                <br><br><br><br>
+                <br><br>
+                </td>
+            </tr>
+        </table>
+     </div>
+        
+     <!--<table id="ftable" border =  align = center>
+         do not use!
+     <th colspan = 14>Page Editor</th>
+     <tr>
+        <th colspan = 4> About Me</th>
+        <th colspan = 4>Student's Details</th>
+        <th colspan = 4>Tasks</th>
+     </tr>
+     <tr>
+     <td colspan = 4><img src="images/senura.jpg" alt="" border=3 height=120 width=120></img></td>
+        <td colspan = 4>Senura Battage <br> 1791007<br> 2019927</th>
+        <td colspan = 4>Products Page<br>Presentation Page<br>Gallery Page<br>External CSS</th>
+        
+     </table>
+     </div>-->
+  </body> 
+</html>

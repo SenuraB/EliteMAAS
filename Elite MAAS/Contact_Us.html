@@ -1,0 +1,133 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Us new</title>
+
+    <!-- Linking External Css File -->
+    <link rel="stylesheet" href="CSS/External_CSS.css"/>
+
+    <!-- Linking font awesome css file using cdn (for footer icons)-->
+	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> 
+
+    <!-- Linking Javascript file -->
+    <script src="Js/Contact_Us.js"></script>
+    
+</head>
+<body>
+
+<!-- Creating header with navigation panel -->
+<header id="top">
+	<!-- Inserting logo -->
+	<div class="main-logo">
+		<img src="images/MainLogo.png" alt="Logo">
+	</div>
+
+	<!-- Creating main navigation bar with vertical dropdowns for "Explore" and "About Us" -->
+	<!-- Hover effect added for navigation panel -->
+	<ul class="main-nav-area">
+		<li><a href="Main_Page.html">Home</a></li>
+		<li><a href="Products">Products</a></li>
+				
+		<li class="main-dropdown">
+			<a href="javascript:void(0)" class="main-dropbtn">Explore</a>
+				<div class="main-droplist">
+					<a href="article.html">Articles</a>
+					<a href="quiz.html">Quiz</a>
+					<a href="Gallery.html">Gallery</a>
+				</div>
+		</li>
+
+		<li><a href="Sitemap.html">Site Map</a></li>
+
+		<li class="main-dropdown">
+			<a href="javascript:void(0)" class="main-dropbtn">About Us</a>
+				<div class="main-droplist">
+					<a href="Contact_Us.html">Contact Us</a>
+					<a href="Team.html">Our Team</a>
+				</div>
+		</li>
+	</ul>	
+
+</header>
+
+    <div class="contactus-maincontainer">
+        <div id="cu-container">
+            <h2>Contact Us</h2>
+            <div id="formdata1"></div>
+            <form method="POST" action="mailto:achala.2019903@iit.ac.lk" id="qformId" name="queryFormName">
+                <div class="cu-fields">
+                    <input name="First Name" type="text" id="qfname" placeholder="First Name"><br>
+                </div>
+                <div class="cu-fields">
+                    <input name="Last Name" type="text" id="qsname" placeholder="Last Name"><br>
+                </div>
+                <div class="cu-fields">
+                    <input name="Email" type="text" id="qemail" placeholder="Personal Email"><br>
+                </div>
+                <div class="cu-fields">
+                    <select name="Subject" id="qsubject">
+					  <option value="" selected disabled hidden>Select Subject</option>
+                      <option value="Delivery Issues">Delivery Issues</option>
+                      <option value="Product Price Details">Product Price Details</option>
+                      <option value="Product Quality">Product Quality</option>
+                    </select>  
+                </div>
+                <div class="cu-fields">
+                    <textarea name="Description" id="qdescription" placeholder="Enter your message in less than 250 characters" maxlength="250"></textarea><br>
+                </div>
+                <div class="cu-button">
+                    <button class="cu-btn" type="button" onclick="return validateForm()">View Query</button>
+                </div>
+            </form>
+        </div> 
+    </div>
+
+  	<!--Creating footer with easy navigation to pages and with icons for contact information  -->
+	<!-- Link to Editors page included in the footer -->
+<footer class="main-footer">
+	<div class="main-footerleft">
+		<h3>Elite<span>MAAS</span></h3>
+		<div class="main-footerlinks">
+			<a href="article.html" class="link1">Articles</a>
+			<a href="quiz.html">Quiz</a>
+			<a href="Gallery.html">Gallery</a>
+			<a href="Contact_Us.html">Contact Us</a>
+			<a href="Team.html">Our Team</a>
+		</div> 
+			<p class="main-footercompany">
+				Copyrights reserved &#169; 2021
+			</p>
+	</div>
+	<div class="main-footercenter">
+		<div>
+			<i class="fa fa-map-marker"></i>
+			<p><span>No.34, Cross Street,</span>Colombo 05, Sri Lanka</p>
+		</div>
+		<div>
+			<i class="fa fa-phone"></i>
+			<p>011-2906789</p>
+		</div>
+		<div>
+			<i class="fa fa-envelope"></i>
+			<p>contactus@elitemaas.com</p>
+		</div>
+	</div>	
+	<div class="main-footerright">
+		<p class="main-footerabout">
+			<span>About The Company</span>
+			Elite MAAS is a sports equipment store which sells high quality products.
+		</p>
+	
+		<div class="author">
+			<a href="PageEditor2.html">PAGE EDITOR: Achala Fernando</a>
+		</div>
+	</div>	
+
+	<div class="main-topbtn">
+		<a href="#top"><i class="fa fa-chevron-up"></i></a>
+	</div>	
+</footer>
+
+</body>
+</html>

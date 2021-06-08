@@ -1,0 +1,1398 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color:#2e2e32;
+}
+
+/* ------------------------------Presentation Page [STUDENT 01] - Senura Battage--------------------------------------- */
+/*  This is the first page - redirecting after 04 seconds */
+img.container {
+            position: relative;
+            width: 100%;
+            padding-top: 56.25%;
+            /* 16:9 Aspect Ratio */
+        }
+        
+.topright {
+            position: absolute;
+            top: 18px;
+            right: 30px;
+            color: rgb(255, 255, 255);
+            font-size: 25px;
+        }
+        /* Table ids */
+        
+        #ftable {
+            font-family: Arial, Helvetica, sans-serif;
+            border-collapse: collapse;
+            width: 100%;
+        }
+        
+        #ftable td,
+        #ftable th {
+            border: 3px solid #ffff;
+            padding: 8px;
+            text-align: left;
+        }
+        
+        #ftable tr:hover {
+            background-color: #FF6347;
+        }
+        
+        #ftable th {
+            padding-top: 12px;
+            padding-bottom: 12px;
+            text-align: left;
+            color: white;
+        }
+/*------------------------------------------------Body [STUDENT 01] - Senura Battage ----------------------------------------------*/
+
+body{
+	background-color:#2e2e32;
+}
+
+.boxmodel{
+    margin: 0;
+    padding: 0;
+}
+
+
+/* ------------------------------------Main Page [STUDENT 02] - Achala Fernando--------------------------------------- */
+/* Header - Used throughout the website */
+header{
+    width: auto;
+    margin:auto;
+    background:black;
+    height: 23vh;    
+    /* vh= viewport height. 1vh=1% of the height of the viewport.  Viewport = browser window size. */
+    top:0;
+    position: relative;
+    overflow:hidden; 
+}
+
+.main-logo img {
+    width: 125px;
+    float: left;
+    height: auto;
+    margin-top: 15px;
+    margin-left: 40px;
+}
+
+.main-nav-area{
+    float:right;
+    list-style: none;
+    margin-top:20px;    
+}
+
+.main-nav-area li {
+    display:inline-block;
+}
+
+.main-nav-area li a{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding: 5px 30px;
+    font-family: 'Raleway',sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.main-nav-area li a:hover{
+    background:#ff6347;
+    color:#000;
+}
+
+.main-dropbtn {
+    display: inline-block;
+    color:rgb(255, 255, 255);
+    text-align: center;
+    text-decoration: none;
+}
+
+.main-dropdown {
+    display: inline-block;
+}
+
+.main-droplist{
+    display: none;
+    position:absolute; 
+    z-index: 1;
+}
+
+.main-nav-area .main-droplist a{
+    display: block;
+    font-size: 15px;
+    z-index: 1;
+}
+
+.main-dropdown:hover .main-droplist{
+    display:block;
+}
+
+/* Content of the Main page */
+.main-container{
+    width:100%;
+    height:650px;
+    background: url('../images/MainPage.jpg');  
+    background-size:cover; 
+    color:#fff;
+    display:flex;
+    position: relative;
+}
+
+.main-overlay{
+    width:100%;
+    height:100%;
+    background-color: black;
+    opacity:0.4;
+    position: absolute;
+}
+
+.main-text1{
+    justify-content:left;
+    margin: 120px 100px;
+    font-family: 'Raleway',sans-serif;
+    text-shadow: 2px 2px 5px #ff6347;
+    font-weight: bold;
+    font-size: 50px;
+    text-transform: uppercase;
+    z-index: 1;
+}
+
+.main-txtspan{
+    font-size: 25px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+}
+
+.main-btn {
+    padding: 10px;
+    font-weight: bolder;
+    margin-top:50px;
+    margin-left: 120px;
+    background-color: black;
+    opacity: 0.8;
+    border: 2px solid tomato;
+    outline: none;
+    cursor: pointer;
+    border-radius: 25px;
+    text-decoration: none;
+    color: white;
+    transition: 0.3s;
+}  
+
+.main-btn:hover{
+    background: tomato;
+    color:black;
+}
+
+/* Footer - Used throughout the website */
+.main-footer {
+    bottom: 0;
+    width: 100%;
+    background-color: #1F1E21;
+    display: inline-block;
+    box-sizing: border-box;
+    height: auto;
+    max-height: 35vh;
+    text-align:left;
+    padding: 50px 0px; 
+    color: white;
+    font-size: 16px;
+    font-family: 'Raleway',sans-serif;   
+}
+
+.main-footerleft,
+.main-footercenter,
+.main-footerright,
+.main-topbtn {
+    display:inline-block;
+}
+
+.main-footerleft,
+.main-footercenter,
+.main-footerright{
+    vertical-align: top;
+}
+
+.main-topbtn {
+    vertical-align: bottom;
+}
+
+.main-footerleft{
+    width:40%; 
+}
+
+footer h3{
+    color: #fff;
+    font-size: 25px;
+    font-family: 'Raleway',sans-serif;
+    font-weight: 300;
+    margin:10px 12px 40px;
+}
+
+footer h3 span{
+    color: #ff6347;
+}
+
+.main-footerlinks{
+    color:#fff;
+    margin: 20px 10px 40px;
+    padding: 0;
+}
+
+.main-footerlinks a {
+    display:inline-block;
+    font-weight: 400;
+    text-decoration: none;
+    color:inherit;
+    margin: 0px 4px;
+}
+
+.main-footerlinks a:before{
+    content:"|";
+    color:white;
+    padding-right: 6px;
+}
+
+.main-footerlinks .link1:before{
+    content:none;
+}
+
+.main-footercompany{
+    font-size: 14px;
+    margin:0px 10px 0px;
+}
+
+.main-footercenter{
+    width:32%; 
+}
+
+.main-footercenter i{
+    width: 36px;
+    height:36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px;
+    margin:8px 15px;
+    vertical-align: middle;
+    font-size: 18px;
+    background: grey;
+    color:black;
+}
+
+.main-footercenter p{
+    display: inline-block;
+    color:#fff;
+    font-weight: normal;
+    font-size: 14px;
+    vertical-align: middle;
+}
+
+.main-footercenter p span{
+    display: block;
+    line-height: 1.5; 
+}
+
+.main-footerright{
+    width:20%;
+}
+
+.main-footerabout{
+    line-height: 20px;
+    color:#fff;
+    font-size: 14px;
+    margin-bottom: 40px;
+}
+
+.main-footerabout span{
+    display: block;
+    font-size: 16px;
+    font-weight: bold;
+    color: #ff6347;
+    margin-bottom: 30px;
+}
+
+.author a{
+    color: darkgray;
+    text-decoration: none;
+    font-size: 13px;
+}
+
+/* Css added for the Back To Top button (Within the footer) */
+.main-topbtn{
+    width: 36px;
+    height:36px;
+    border-radius: 50%;
+    text-align: center;
+    line-height: 36px; 
+    margin:8px 10px;
+    background: grey;
+    color:black;
+    margin-bottom: 10px;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.main-topbtn a i{
+    text-decoration: none;
+}
+
+.main-topbtn:hover{
+    background: #ff6347;
+    color: black;
+}
+
+
+/* Scroll bar - Designed to be used throughout the website */
+::-webkit-scrollbar{
+    width:13px;
+}
+
+::-webkit-scrollbar-track{
+   background:black;
+   
+}
+
+::-webkit-scrollbar-thumb{
+    background: rgba(255, 99, 71, 0.5);
+    border-radius: 20px;
+    border:3px solid;
+}
+
+::-webkit-scrollbar-thumb:hover{
+    background:#ff6347;
+}
+
+/* ---------------------------------------------Articles Page [STUDENT 01] - Senura Battage-------------------------------------------------*/
+
+.art_para{
+    padding-left: 60px;
+    padding-right: 60px;
+    text-align: justify;
+  text-justify: inter-word;
+    color: white;
+}
+
+.art_paralist{
+    padding-left: 60px;
+    color: white;
+    text-align: justify;
+  text-justify: inter-word;
+}
+
+
+/* -----------------------------------Products Page [STUDENT 01] - Senura Battage--------------------------------------- */
+
+
+
+#themes {
+  width: 300px;
+  height: 300px;
+  background-color: #FF6347;
+  color: white;
+}
+
+/* --------------------------------------Slidings [STUDENT 01] - Senura Battage--------------------------------*/
+.pro_sliding {
+    display: none;
+}
+
+hr.product_list {
+    border: 1px solid #FF6347;
+}
+
+/* This is the nav bar */
+
+* {
+    box-sizing: border-box
+}  
+
+.pro_navbar {
+    width: 100%;
+    background-color: #212121;
+    overflow: auto;
+}
+
+
+/*-------------------------------nav menu buttons of product page - Products Page [STUDENT 01] - Senura Battage----------------------------- */
+.buybutton{
+  background-color: #1f1e21; /* header color */
+  border: 2px solid tomato;
+  color: #FF6347;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 22px;
+  margin: 15px 2px;
+  margin-left: 1111px;
+  cursor: pointer;
+}
+
+.pro_navbar a {
+    float: left;
+    padding: 25px;
+    color: white;
+    text-decoration: none;
+    font-size: 25px;
+    width: 33.33%;
+    /* Four links of equal widths */
+    text-align: center;
+}
+
+.pro_navbar a:hover {
+    background-color: #FF6347;
+}
+
+.pro_navbar a.active {
+    background-color: #FF6347;
+}
+
+@media screen and (max-width: 500px) {
+    .pro_navbar a {
+        float: none;
+        display: block;
+        width: 100%;
+        text-align: left;
+    }
+}
+
+/*------------- New----------------- */
+ /* ---------------------------------------------buy products form - Products Page [STUDENT 01] - Senura Battage-------------------------------------- */
+        
+
+        /* This is product page */
+        .list {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            display: none;
+            margin: 10px;
+        }
+        .men {
+			display: inline-block;
+			max-width: 300px;
+			margin: auto;
+            text-align: center;
+            font-family: arial;
+			margin: 10px;
+		}
+        
+        
+        /*
+        offer is not included
+        .offerlist {
+            box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+            max-width: 300px;
+            margin: auto;
+            text-align: center;
+            font-family: arial;
+            display: inline-block;
+            margin: 10px;
+        }
+        */
+        
+        .price {
+            color: #FF6347;
+            font-size: 22px;
+            font-family: Arial;
+        }
+        .pro_names {
+            color: #FF6347;
+            font-size: 18px;
+            font-family: Arial;
+        }
+        
+        .list button {
+            border: none;
+            outline: 0;
+            padding: 12px;
+            color: white;
+            background-color: #000;
+            text-align: center;
+            cursor: pointer;
+            width: 100%;
+            font-size: 18px;
+        }
+        
+        .list button:hover {
+            opacity: 0.9;
+            color: #FF6347;
+        }
+        
+        div .men {
+            background-color: #000;
+        }
+
+        /* These are the inputs*/
+        .input_text[type=text],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .input_email[type=email],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .input_date[type=datetime],
+        select {
+            width: 100%;
+            padding: 12px 20px;
+            margin: 8px 0;
+            display: inline-block;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+            box-sizing: border-box;
+        }
+        
+        .input_submit[type=submit] {
+            width: 100%;
+            background-color: #1f1e21;
+            color: white;
+            padding: 14px 20px;
+            margin: 8px 0;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        
+        .input_submit[type=submit]:hover {
+            background-color: #FF6347;
+        }
+        /* ---------------------------------------buy products form - Products Page [STUDENT 01] - Senura Battage------------------------*/
+         #formdata {
+            width: 100%;
+            border-radius: 5px;
+            background-color: #fffefe;
+            padding: 12px 20px;
+            opacity: 0.85;
+            margin-left: 50px;
+            box-sizing: border-box;
+        } 
+        /* This is order form */
+        .amount {
+            color: #FF6347;
+            width: 60%;
+            height: 20%; font-size: 20px;
+            margin-left: auto;
+            margin-right: auto;
+            padding: 10px;
+        }
+
+
+
+/* --------------------------------OUR TEAM Page [STUDENT 03] - Lochana Ratnayake-------------------------------------- */
+
+.ourteam_imageContainer {
+    display:inline-block;
+    position: relative;
+    width: 24%;
+    padding: 5px;
+  }
+  
+  .ourteam_imageContainer:hover .ourteam_overlay {
+    bottom: 0;
+    height: 100%;
+  }
+  
+  .ourteam_image {
+    display: block;
+    width: 100%;
+    border-radius: 30%;
+  }
+  
+  .ourteam_overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background-color: #ec5121;
+    overflow: hidden;
+    width: 100%;
+    height:0;
+    transition: .5s ease;
+    border-radius: 30%;
+  }
+  
+  .ourteam_text {
+    color: white;
+    font-size: 25px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+  }
+  
+  .ourteam_content{
+          margin-top: inherit;
+      }
+  
+  #ourteam_description {
+      grid-area: description;
+      width: auto;
+      text-align: center;
+      text-transform: uppercase;
+      border-radius: var(--main-radius);
+      padding:50px;
+  }
+  
+  #ourteam_content1 {
+      grid-area: content1;
+      border-radius: var(--main-radius);
+      text-align: center;	
+  }
+  
+  
+  #ourteam_content1 h2{
+      padding-top:0px;
+      color: #e44a1b  ;
+      font-size:50px;
+      text-align:center;
+      -webkit-text-stroke: 1px #cfcecd;
+  
+  }
+
+  #ourteam_content1 p{
+    padding-top:0px;
+    color: #dfdfdf  ;
+    font-size: 25px;
+    text-align:center;
+    -webkit-text-stroke: 1px #cfcecd;
+
+}
+
+
+.ourteam_aboutus {
+    width: 480px;
+    padding: 30px;
+    border: 5px solid rgb(240, 118, 4);
+    margin: 0;
+    text-align: center;
+  }
+
+
+  #ourteam_description h1{
+      color: rgb(247, 123, 22);
+      -webkit-text-stroke: 0.5px #949494;
+  }
+      
+  #ourteam_description p{
+      color: rgb(229, 231, 231);
+      font-size: 22px;
+      text-transform: capitalize;
+  }
+  
+  /* body image */
+
+.ourteambg {
+    background: url(../images/ourteam.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+/* --------------------------------------Contact Us [STUDENT 02] - Achala Fernando------------------------------------ */
+
+.contactus-maincontainer{
+    margin:0;
+    padding:0;
+    background: url('../images/ContactUs.jpg');
+    background-size: cover;
+    height: 95vh;
+    font-family:'Raleway',sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#cu-container{
+    width:100%;
+    max-width: 390px;
+    max-height: 800px; 
+    background:black;
+    opacity: 0.9;
+    padding: 30px ;
+    color: #fff;
+    border-radius: 10px;
+    box-shadow: 10px 10px 5px rgba(72, 75, 72, 0.5);
+} 
+
+ #cu-container h2{
+    text-align: center;
+    margin-bottom: 30px;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    color: #fff;
+
+} 
+
+.cu-fields input,
+.cu-fields textarea{
+    width: 100%;
+    max-width: 330px;
+    border: 1px solid #ff6347;
+    padding: 8px;
+    margin-bottom: 10px;
+    outline: none;
+} 
+
+#cu-fields select{
+    width: 100%;
+    border: 1px solid #ff6347;
+    padding: 8px;
+    margin-bottom: 10px;
+    margin-top: 0px; 
+    outline: none;
+}
+
+.cu-fields textarea{
+    height: 90px; 
+    width: 100%;
+    max-width: 330px;
+    resize: none;
+    font-family:'Raleway',sans-serif ;
+}
+
+.cu-btn{
+    padding:8px;
+    width:100%;
+    max-width: 200px;
+    margin-left: 65px;
+    border: solid 2px tomato;
+    background: black;
+    color: white;
+    border-radius: 10px;
+    outline: none;
+    cursor: pointer;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+    font-weight: bold;
+} 
+
+.cu-btn:hover{
+    background: tomato;
+    color: black;
+}
+
+/* Content in the Feedback Summary page */
+#qedit, #qsubmit{
+    padding: 7px 17px;
+    width:100%;
+    max-width: 75px;
+    cursor: pointer;
+    font-weight: bold;
+    border: tomato;
+    border-radius: 5px;
+    background: black;
+    opacity: 0.9;
+    color: #fff;
+    outline: none;
+}
+
+.editbuttons{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 30px;   
+} 
+
+ #qedit{
+    margin-right: 15px;    
+}
+
+#qedit:hover,
+#qsubmit:hover{
+    background:tomato;
+    color: black;
+}
+
+.editdetails{
+    background-image: linear-gradient(60deg, #29323c 0%, #485563 100%);
+    opacity: 1;
+    height: 300px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.editinformation{
+    color:white;
+    font-weight: bold;
+    font-size: 14px;
+    font-family: monospace;
+}
+
+.editlines{
+    margin-left: 10px;
+    margin-right: 10px;
+    line-height: 30px;
+}
+/* --------------------------------------Gallery [STUDENT 04] - Asini Thalawaththa------------------------------------ */
+
+* {
+    box-sizing: border-box;
+  } 
+  
+  /* Center website */
+  .gallery_main {
+   width: 1000px;
+    margin: auto;
+  }
+  .gallery_row {
+    margin: 16px -32px;
+  }
+  
+  /* Content */
+  .gallery_content {
+    text-align-last: center;
+    font-family: fantasy;
+    font-size: 20PX;
+    color:white;
+    background-color: #d45a09;
+    padding: 10px;
+  }
+  /* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+  @media screen and (max-width: 600px) {
+    .gallery_column {
+   width: 100%;
+    }
+  }
+  /* Responsive layout - makes a two column-layout instead of four columns */
+  @media screen and (max-width: 900px) {
+    .gallery_column {
+      width: 50%;
+    }
+  }
+  .gallery_column {
+    float: left;
+    width: 33.33%;
+    padding: 5px;
+  }
+  /* Clearfix (clear floats) */
+  .gallery_row::after {
+    content: "";
+    clear: both;
+    display:inline-block;
+  }
+  .topColourChanger{
+    border-color: black;
+    border-width: 1px;
+    padding: 25px;
+    background-color:#cccccc;
+    display: inline-block;
+    margin-bottom:50px;
+    margin-left: 250px;
+    margin-left: 210px;
+  
+  }
+  #essContainer{
+        margin-top:0px;
+        padding-top:50px;
+      padding-bottom: 0px;
+      background-color: #2e2e32;
+      border-radius: 0px;
+        height: auto;
+        opacity:0.90;
+      width: auto;
+  }
+  .gallery_thumbnailImages{
+      height:200px; 
+      width:100%;
+  }
+  
+  /* The expanding image container */
+  #gallery_container {
+    position: relative;
+    display: none;
+  }
+  #expandedImg {
+    width:100%;
+  } 
+  /* Drop down labels */
+  #gallery_lb1{
+    color:black;
+      font-size:20px;
+      padding:10px;
+   font-family: monospace;
+   text-align: center;
+  }
+  
+  #gallery_lb2{
+    color:black;
+      font-size:20px;
+      padding:30px;
+    font-family: monospace;
+    text-align:justify ;
+  }
+  #fontColourOptions{
+   font-family: cursive;
+   font-size: medium;
+  }
+  #backGroundColourOptions{
+    font-family: cursive;
+    font-size: medium;
+  }
+
+  /* --------------------------------------SVG Sitemap [STUDENT 04] - Asini Thalawaththa------------------------------------ */
+
+  /* -----------------Adding CSS to Sitemap SVG Rectangles-------------------- */
+#Sitemap_Home{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:5;
+    fill:#ff6600;
+}
+#Sitemap_Product{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:4;
+    fill:#ff6600;
+}
+#Sitemap_Explore{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:4;
+    fill:#ff6600;
+}
+#Sitemap_About_us{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:4;
+    fill:#ff6600;
+}
+#Sitemap_Articles{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:3;
+    fill:#ff6600;
+}
+#Sitemap_Quiz{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:3;
+    fill:#ff6600;
+}
+#Sitemap_Gallery{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:3;
+    fill:#ff6600;
+}
+#Sitemap_Contact_Us{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:3;
+    fill:#ff6600;
+}
+#Sitemap_Our_Team{
+    stroke:#000000;
+    stroke-opacity:unset;
+    stroke-width:3;
+    fill:#ff6600;
+}
+/* -----------------Adding CSS to Sitemap SVG Lines-------------------- */
+
+#sitemap_Main_Line{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:5; 
+}
+#Sitemap_Products_Main_Line1{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:4; 
+}
+#Sitemap_Explore_Main_Line1{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:4; 
+}
+#Sitemap_AboutUs_Main_Line1{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:4; 
+}
+#Sitemap_Explore_Main_Line2{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:3; 
+}
+#Sitemap_AboutUs_Main_Line2{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:3; 
+}
+#Sitemap_Articles_line{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:3; 
+}
+#Sitemap_Quiz_line{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:3; 
+}
+#Sitemap_Gallery_line{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:3; 
+}
+#Sitemap_Contact_Us_line{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:3; 
+}
+#Sitemap_Our_Team_line{
+    stroke:black;
+    stroke-linecap:square;
+    stroke-linejoin:bevel;
+    fill-opacity:inherit;
+    stroke-opacity:initial;
+    stroke-width:3; 
+}
+
+/* -----------------Adding CSS to Sitemap SVG Text-------------------- */
+
+#Sitemap_Home_txt{
+     font-family:Georgia, 'Times New Roman', Times, serif;
+     font-size:xx-large;
+     fill-opacity:initial;
+     stroke-opacity:inherit; 
+     stroke-width: 20px;
+     fill:white;
+}
+#Sitemap_Products_txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    fill-opacity:initial;
+    stroke-opacity:inherit; 
+    stroke-width: 20px;
+    fill:white;
+}
+#Sitemap_Explore_txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    fill-opacity:initial;
+    stroke-opacity:inherit; 
+    stroke-width: 20px;
+    fill:white;
+}
+#Sitemap_AboutUs_txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    fill-opacity:initial;
+    stroke-opacity:inherit; 
+    stroke-width: 20px;
+    fill:white;
+}
+#Sitemap_Articles_txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    fill-opacity:initial;
+    stroke-opacity:inherit; 
+    stroke-width: 20px;
+    fill:white;
+}
+#Sitemap_Quiz_txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    fill-opacity:initial;
+    stroke-opacity:inherit; 
+    stroke-width: 20px;
+    fill:white;
+}
+#Sitemap_Gallery_txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    fill-opacity:initial;
+    stroke-opacity:inherit; 
+    stroke-width: 20px;
+    fill:white;
+}
+#Sitemap_Contact_Us_txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    fill-opacity:initial;
+    stroke-opacity:inherit; 
+    stroke-width: 20px;
+    fill:white;
+}
+#Sitemap_Our_Team_txt{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    font-size:xx-large;
+    fill-opacity:initial;
+    stroke-opacity:inherit; 
+    stroke-width: 20px;
+    fill:white;
+}
+
+
+/* --------------------------------Quiz Page [STUDENT 03] - Lochana Ratnayake-------------------------------------- */
+
+.QuizBody{
+    font-size: 20px;
+    font-family: 'Courier New', Courier, monospace;
+    background: url(../images/ourteam.jpg);
+    background-size:cover; 
+    background-repeat: no-repeat;
+    background-attachment:auto;
+    grid-area: auto;
+	color:#fff;
+}
+
+
+#QuizContainer{
+	grid-area:QuizContainer;
+    margin : 20px auto;
+	height:auto;
+    width : 100%;
+    border-radius: 5px;
+    position: relative;
+
+}
+
+.quiztext{
+    color:rgb(247, 79, 28);
+}
+
+
+
+.QuizBody h2{
+	text-align:center;
+	padding-bottom:25px;
+    color:rgb(247, 79, 28);
+    font-size: 40px;
+}
+
+.QuizBody ul li{
+	padding-bottom:5px;
+}
+
+
+
+#quizstart{
+	font-size: 1.3em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:10%;
+    height:75px;
+    border : 3px solid rgb(255, 112, 17);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left:78%;
+    color : tomato;
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;   
+    transition-duration: 0.4s;
+    border-radius: 15px;
+    
+}
+
+
+#quizstart:hover{
+    border: 3px solid rgb(255, 255, 255);
+    color : rgb(0, 0, 0);
+    background-color: rgb(250, 118, 42);
+}
+
+#quizreset{
+	font-size: 1.1em;
+    font-weight: bolder;
+    word-break: break-all;
+    width:8%;
+    height:50px;
+    border : 3px solid rgb(179, 21, 0);
+    text-align: center;
+    cursor: pointer;
+    position: relative;
+    left:45%;
+    color : rgb(218, 0, 0);
+    font-family: 'Courier New', Courier, monospace;
+    display: inline-block;   
+    transition-duration: 0.4s;
+    border-radius: 8px;
+}
+
+#quizreset:hover{
+    border: 3px solid rgb(255, 255, 255);
+    color : rgb(0, 0, 0);
+    background-color: rgb(206, 33, 3);
+}
+
+
+#question{
+    width:auto;
+    height : 500px;
+    position: relative;
+    right:0;
+	background-repeat: no-repeat;
+    background-size: cover;
+	
+}
+
+#question p{
+    margin : 0;
+    padding : 15px;
+    font-size: 1.25em;
+	color:rgb(255, 255, 255);
+}
+
+#choices{
+    width : 1100px;
+    position: absolute;
+    right : 0;
+    top : 160px;
+    padding : 10px
+}
+
+.choice{
+    display: inline-block;
+    width : 140px;
+    text-align: center;
+    border : 5px solid tomato;
+    border-radius: 5px;
+    cursor: pointer;
+    padding : 9px;
+	color: #ffffff ;
+}
+
+.choice:hover{
+    border : 2px solid grey;
+    font-weight: bold;
+}
+
+#timer{
+    position: absolute;
+    height : 100px;
+    width : 200px;
+    bottom : 0px;
+    text-align: center;
+    right: 0px;
+}
+
+#counter{
+    font-size: 2em;
+    color: rgb(233, 67, 38);
+}
+
+#btimeGauge{
+    width : 150px;
+    height : 10px;
+    border-radius: 10px;
+    background-color: rgb(163, 160, 160);
+    margin-left : 25px;
+}
+
+#timeGauge{
+    height : 10px;
+    border-radius: 10px;
+    background-color: rgb(224, 52, 21);
+    margin-top : -10px;
+    margin-left : 25px;
+}
+
+#progress{
+    width : 400px;
+    position: absolute;
+    bottom : 0px;
+    right : 1050px;
+    padding: 10px;
+    text-align: center;
+	margin-bottom: 80px;
+}
+
+
+.prog{
+    width : 25px;
+    height : 25px;
+    border: 1px solid #000;
+    display: inline-block;
+    border-radius: 50%;
+    margin-left : 5px;
+    margin-right : 5px;
+}
+
+#scoreContainer{
+    margin : 20px auto;
+    opacity: 0.8;
+    height: 400px;
+    width : auto;
+    border-radius: 5px;
+    box-shadow: 0px 5px 15px 0px;
+    position: relative;
+}
+
+#scoreContainer img{
+    position: absolute;
+    top:100px;
+    left:325px;
+}
+
+#scoreContainer p{
+    position: relative;
+    display: block;
+    width : 59px;
+    height :59px;
+    top:130px;
+    left:45%;
+    font-size: 1.5em;
+    font-weight: bold;
+    text-align: center;
+}
+
